@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00a9167f-aaf9-405d-8b63-13e3b519cfc0" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/fuzzyfication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fuzzy Package.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/doctrees/environment.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/doctrees/index.doctree" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/.buildinfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/source/Fuzzy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/source/Input.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/source/utils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_sources/index.rst.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/badge_only.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal-italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal-italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/doctools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/documentation_options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/jquery-3.5.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/badge_only.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/html5shiv-printshiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/html5shiv.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/language_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/pygments.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/searchtools.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/underscore-1.12.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/underscore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/genindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/objects.inv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/py-modindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/build/html/searchindex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Fuzzy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/youssefbar/fuzzy.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ofM5dhESnIKh4Om1hH5xbRcx28" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\youssef\PycharmProjects\fuzzyfication\source" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\youssef\PycharmProjects\fuzzyfication\source" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fuzzyfication" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\youssef\PycharmProjects\fuzzyfication\source\test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fuzzyfication" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\youssef\PycharmProjects\fuzzyfication\source\utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_Fuzzy.test_fuzzify" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="fuzzyfication" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_Fuzzy.test_fuzzify&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.pytest for test_Fuzzy.test_fuzzify" />
+        <item itemvalue="Python.utils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00a9167f-aaf9-405d-8b63-13e3b519cfc0" name="Default Changelist" comment="" />
+      <created>1613673010228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613673010228</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="https:/github.com/youssefbar/fuzzyfication" />
+    </ignored-roots>
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613687487229">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1613687487229" />
+    <state x="555" y="262" key="Github.ShareDialog" timestamp="1617987759117">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="555" y="262" key="Github.ShareDialog/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617987759117" />
+    <state x="477" y="69" key="Github.UntrackedFilesDialog" timestamp="1617987766761">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617987766761" />
+    <state width="661" height="155" key="GridCell.Tab.0.bottom" timestamp="1617988384148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617988384148" />
+    <state width="1317" height="155" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1617816035207" />
+    <state width="661" height="155" key="GridCell.Tab.0.center" timestamp="1617988384148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="155" key="GridCell.Tab.0.center/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617988384148" />
+    <state width="1317" height="155" key="GridCell.Tab.0.center/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1617816035207" />
+    <state width="661" height="155" key="GridCell.Tab.0.left" timestamp="1617988384148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="155" key="GridCell.Tab.0.left/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617988384148" />
+    <state width="1317" height="155" key="GridCell.Tab.0.left/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1617816035207" />
+    <state width="661" height="155" key="GridCell.Tab.0.right" timestamp="1617988384148">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="155" key="GridCell.Tab.0.right/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617988384148" />
+    <state width="1317" height="155" key="GridCell.Tab.0.right/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1617816035207" />
+    <state width="1322" height="223" key="GridCell.Tab.1.bottom" timestamp="1615430837205">
+      <screen x="1366" y="-57" width="1360" height="728" />
+    </state>
+    <state width="1322" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615430837205" />
+    <state width="1322" height="223" key="GridCell.Tab.1.center" timestamp="1615430837204">
+      <screen x="1366" y="-57" width="1360" height="728" />
+    </state>
+    <state width="1322" height="223" key="GridCell.Tab.1.center/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615430837204" />
+    <state width="1322" height="223" key="GridCell.Tab.1.left" timestamp="1615430837204">
+      <screen x="1366" y="-57" width="1360" height="728" />
+    </state>
+    <state width="1322" height="223" key="GridCell.Tab.1.left/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615430837204" />
+    <state width="1322" height="223" key="GridCell.Tab.1.right" timestamp="1615430837204">
+      <screen x="1366" y="-57" width="1360" height="728" />
+    </state>
+    <state width="1322" height="223" key="GridCell.Tab.1.right/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615430837204" />
+    <state x="182" y="9" key="SettingsEditor" timestamp="1617988490204">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="182" y="9" key="SettingsEditor/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617988490204" />
+    <state x="1547" y="-48" key="SettingsEditor/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615215000621" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617987889385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617987889385" />
+    <state x="1753" y="-57" width="585" height="728" key="find.popup" timestamp="1615176132298">
+      <screen x="1366" y="-57" width="1360" height="728" />
+    </state>
+    <state x="1753" y="-57" width="585" height="728" key="find.popup/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615176132298" />
+    <state x="1889" y="79" key="refactoring.ChangeSignatureDialog" timestamp="1614960379022">
+      <screen x="1366" y="-57" width="1360" height="728" />
+    </state>
+    <state x="1889" y="79" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1614960379022" />
+    <state x="1709" y="-8" width="672" height="678" key="search.everywhere.popup" timestamp="1615421529893">
+      <screen x="1366" y="-57" width="1360" height="728" />
+    </state>
+    <state x="1709" y="-8" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615421529893" />
+  </component>
+</project>
