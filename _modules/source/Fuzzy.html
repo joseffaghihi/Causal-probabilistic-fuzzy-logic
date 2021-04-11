@@ -1,0 +1,342 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>source.Fuzzy &mdash; Fuzzy Causal 1.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Fuzzy Causal
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"></div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Fuzzy Causal</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html">Module code</a> &raquo;</li>
+        
+      <li>source.Fuzzy</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for source.Fuzzy</h1><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">skfuzzy</span> <span class="k">as</span> <span class="nn">fuzz</span>
+<span class="kn">from</span> <span class="nn">pandas._typing</span> <span class="kn">import</span> <span class="n">FrameOrSeries</span>
+<span class="kn">from</span> <span class="nn">source.Input</span> <span class="kn">import</span> <span class="n">Fuzzy_input</span>
+
+
+<div class="viewcode-block" id="Fuzzy"><a class="viewcode-back" href="../../index.html#source.Fuzzy.Fuzzy">[docs]</a><span class="k">class</span> <span class="nc">Fuzzy</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    intialize the fuzzy class &#39;&#39;&#39;</span>
+
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+<div class="viewcode-block" id="Fuzzy.fuzzify"><a class="viewcode-back" href="../../index.html#source.Fuzzy.Fuzzy.fuzzify">[docs]</a>    <span class="k">def</span> <span class="nf">fuzzify</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span> <span class="p">:</span> <span class="n">FrameOrSeries</span><span class="p">,</span><span class="n">cont_feats</span><span class="p">:</span><span class="nb">list</span><span class="p">,</span><span class="n">potencial_index</span><span class="p">:</span><span class="nb">int</span><span class="p">,</span> <span class="n">Target_index</span><span class="p">:</span><span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">FrameOrSeries</span> <span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">            Class method aiming to fuzzify only on data frame serie at once</span>
+<span class="sd">            The output of every single serie will be appended to one fuzzified</span>
+<span class="sd">            dataframe containing all equivalent fuzzified dataframe series.</span>
+
+<span class="sd">            Parameters:</span>
+<span class="sd">            ----------</span>
+
+<span class="sd">            data : Pandas DataFrame, serie to fuzzify.</span>
+<span class="sd">            cont_feats: list , precising which variables are continuous to an index list.</span>
+<span class="sd">            potencial_index : int , index of the variable to to estimate it&#39;s effect(eq. to treatment)</span>
+<span class="sd">            Target_index : int, index of the variable to search it&#39;s causes(eq. to outcome)</span>
+
+<span class="sd">            Returns:</span>
+<span class="sd">            -------</span>
+
+<span class="sd">            out : list of fuzzy sets.</span>
+
+<span class="sd">            Notes</span>
+<span class="sd">            -----</span>
+<span class="sd">            The process of precising the Closure of the given data and the number of fuzzy sets is automated ,</span>
+<span class="sd">            This class adds also the automoation of numbers of fuzzy sets using  fuzzy C-means Clustering testing</span>
+<span class="sd">            multiple outcomes with a number of clusters ranging from 2 to 9 and using the optimal number of fuzzy sets</span>
+<span class="sd">            corresponding to the highest fuzzy partition coefficient(In case if the input data has more than two</span>
+<span class="sd">            continuous variables so it is possible to apply the clustering).</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">##########################</span>
+        <span class="c1">#Fuzzy c-means clustering#</span>
+        <span class="c1">##########################</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">cont_feats</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">)</span> <span class="p">:</span>
+            <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+            <span class="n">xpts</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">asanyarray</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">ypts</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">asanyarray</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">1</span><span class="p">])</span>
+
+            <span class="n">colors</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;orange&#39;</span><span class="p">,</span> <span class="s1">&#39;g&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">,</span> <span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">,</span> <span class="s1">&#39;k&#39;</span><span class="p">,</span> <span class="s1">&#39;Brown&#39;</span><span class="p">,</span> <span class="s1">&#39;ForestGreen&#39;</span><span class="p">]</span>
+
+            <span class="n">fig1</span><span class="p">,</span> <span class="n">axes1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+            <span class="n">alldata</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">vstack</span><span class="p">((</span><span class="n">xpts</span><span class="p">,</span> <span class="n">ypts</span><span class="p">))</span>
+            <span class="n">fpcs</span> <span class="o">=</span> <span class="p">[]</span>
+
+            <span class="k">for</span> <span class="n">ncenters</span><span class="p">,</span> <span class="n">ax</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">axes1</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="mi">2</span><span class="p">):</span>
+                <span class="n">cntr</span><span class="p">,</span> <span class="n">u</span><span class="p">,</span> <span class="n">u0</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">jm</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">fpc</span> <span class="o">=</span> <span class="n">fuzz</span><span class="o">.</span><span class="n">cluster</span><span class="o">.</span><span class="n">cmeans</span><span class="p">(</span>
+                    <span class="n">alldata</span><span class="p">,</span> <span class="n">ncenters</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="mf">0.005</span><span class="p">,</span> <span class="n">maxiter</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span> <span class="n">init</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+
+                <span class="c1"># Store fpc values for later</span>
+                <span class="n">fpcs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fpc</span><span class="p">)</span>
+
+                <span class="c1"># Plot assigned clusters, for each data point in training set</span>
+                <span class="n">cluster_membership</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+                <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">ncenters</span><span class="p">):</span>
+                    <span class="n">ax</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">xpts</span><span class="p">[</span><span class="n">cluster_membership</span> <span class="o">==</span> <span class="n">j</span><span class="p">],</span>
+                            <span class="n">ypts</span><span class="p">[</span><span class="n">cluster_membership</span> <span class="o">==</span> <span class="n">j</span><span class="p">],</span> <span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="n">colors</span><span class="p">[</span><span class="n">j</span><span class="p">])</span>
+
+
+
+
+
+            <span class="n">fig2</span><span class="p">,</span> <span class="n">ax2</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+            <span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">r_</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">11</span><span class="p">],</span> <span class="n">fpcs</span><span class="p">)</span>
+            <span class="n">ax2</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s2">&quot;Number of centers&quot;</span><span class="p">)</span>
+            <span class="n">ax2</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;Fuzzy partition coefficient&quot;</span><span class="p">)</span>
+
+
+            <span class="c1">#############################################################</span>
+            <span class="c1">#Building the model With Argmax(Fuzzy partition Coefficient)#</span>
+            <span class="c1">#-----------------------------------------------------------#</span>
+            <span class="c1">#############################################################</span>
+
+            <span class="n">cntr</span><span class="p">,</span> <span class="n">u_orig</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="n">fuzz</span><span class="o">.</span><span class="n">cluster</span><span class="o">.</span><span class="n">cmeans</span><span class="p">(</span>
+                <span class="n">alldata</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="mf">0.005</span><span class="p">,</span> <span class="n">maxiter</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
+
+            <span class="c1"># Show 3-cluster model</span>
+            <span class="n">fig2</span><span class="p">,</span> <span class="n">ax2</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+            <span class="n">ax2</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;Trained model&#39;</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">3</span><span class="p">):</span>
+                <span class="n">ax2</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">alldata</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="n">u_orig</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="o">==</span> <span class="n">j</span><span class="p">],</span>
+                         <span class="n">alldata</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="n">u_orig</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="o">==</span> <span class="n">j</span><span class="p">],</span> <span class="s1">&#39;o&#39;</span><span class="p">,</span>
+                         <span class="n">label</span><span class="o">=</span><span class="s1">&#39;series &#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">j</span><span class="p">))</span>
+            <span class="n">ax2</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+
+
+
+            <span class="c1"># Generate uniformly sampled data spread across the range [0, 10] in x and y</span>
+            <span class="n">newdata</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="p">(</span><span class="mi">1100</span><span class="p">,</span> <span class="mi">2</span><span class="p">))</span> <span class="o">*</span> <span class="mi">10</span>
+
+            <span class="n">u</span><span class="p">,</span> <span class="n">u0</span><span class="p">,</span> <span class="n">d</span><span class="p">,</span> <span class="n">jm</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">fpc</span> <span class="o">=</span> <span class="n">fuzz</span><span class="o">.</span><span class="n">cluster</span><span class="o">.</span><span class="n">cmeans_predict</span><span class="p">(</span>
+                <span class="n">newdata</span><span class="o">.</span><span class="n">T</span><span class="p">,</span> <span class="n">cntr</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="mf">0.005</span><span class="p">,</span> <span class="n">maxiter</span><span class="o">=</span><span class="mi">1000</span><span class="p">)</span>
+
+
+            <span class="n">cluster_membership</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">u</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="s2">&quot;Not Enough Continuous Variable to Cluster&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">fpcs</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span> <span class="ow">and</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">fcps</span><span class="p">)</span><span class="o">%</span><span class="mi">2</span><span class="o">==</span><span class="mi">1</span> <span class="p">:</span>
+            <span class="n">num_set</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">fpcs</span><span class="p">)</span>
+        <span class="k">else</span> <span class="p">:</span>
+            <span class="n">num_set</span><span class="o">=</span><span class="mi">3</span>
+        <span class="n">bin_feats</span><span class="o">=</span><span class="p">[</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">columns</span><span class="p">))</span> <span class="k">if</span> <span class="n">i</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">cont_feats</span> <span class="p">]</span>
+        <span class="n">df</span><span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+        <span class="n">out</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">column</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">get_loc</span><span class="p">(</span><span class="n">column</span><span class="p">)</span> <span class="ow">in</span> <span class="n">cont_feats</span><span class="p">:</span>
+                <span class="n">obj</span> <span class="o">=</span> <span class="n">Fuzzy_input</span><span class="p">()</span>
+                <span class="n">col</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="n">column</span> <span class="o">+</span> <span class="s1">&#39;_low&#39;</span><span class="p">:</span> <span class="n">obj</span><span class="o">.</span><span class="n">fuzzify</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">],</span> <span class="s1">&#39;gaussian&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">],</span>
+                                    <span class="n">column</span> <span class="o">+</span> <span class="s1">&#39;_average&#39;</span><span class="p">:</span> <span class="n">obj</span><span class="o">.</span><span class="n">fuzzify</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">],</span> <span class="s1">&#39;gaussian&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">],</span>
+                                    <span class="n">column</span> <span class="o">+</span> <span class="s1">&#39;_high&#39;</span><span class="p">:</span> <span class="n">obj</span><span class="o">.</span><span class="n">fuzzify</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">],</span> <span class="s1">&#39;gaussian&#39;</span><span class="p">)[</span><span class="mi">2</span><span class="p">]})</span>
+                <span class="n">out</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">out</span><span class="p">,</span> <span class="n">col</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+            <span class="k">else</span> <span class="p">:</span>
+                <span class="n">out</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">out</span><span class="p">,</span><span class="n">df</span><span class="p">[</span><span class="n">column</span><span class="p">]],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">out</span></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Youssef Barkaoui.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
