@@ -7,78 +7,17 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00a9167f-aaf9-405d-8b63-13e3b519cfc0" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/.idea/fuzzyfication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rGraphicsSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fuzzy Package.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/doctrees/environment.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/doctrees/index.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/.buildinfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/.nojekyll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/source/Fuzzy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/source/Input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_modules/source/utils.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_sources/index.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/badge_only.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/Roboto-Slab-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold-italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal-italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal-italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/fonts/lato-normal.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/doctools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/documentation_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/jquery-3.5.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/badge_only.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/html5shiv-printshiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/js/theme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/language_data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/pygments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/searchtools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/underscore-1.12.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/_static/underscore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/genindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/objects.inv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/py-modindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/build/html/searchindex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/Fuzzy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/Input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="yaml&#10;Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/source" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -202,6 +141,14 @@
       <option name="presentableId" value="Default" />
       <updated>1613673010228</updated>
     </task>
+    <task id="LOCAL-00001" summary="2">
+      <created>1617988596298</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617988596298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,7 +156,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -220,7 +179,8 @@
       <path value="https:/github.com/youssefbar/fuzzyfication" />
     </ignored-roots>
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613687487229">
@@ -276,10 +236,10 @@
     </state>
     <state x="182" y="9" key="SettingsEditor/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617988490204" />
     <state x="1547" y="-48" key="SettingsEditor/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615215000621" />
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617987889385">
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617988514673">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617987889385" />
+    <state x="492" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.-57.1360.728@0.0.1366.728" timestamp="1617988514673" />
     <state x="1753" y="-57" width="585" height="728" key="find.popup" timestamp="1615176132298">
       <screen x="1366" y="-57" width="1360" height="728" />
     </state>
@@ -292,5 +252,16 @@
       <screen x="1366" y="-57" width="1360" height="728" />
     </state>
     <state x="1709" y="-8" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-57.1360.728@1366.-57.1360.728" timestamp="1615421529893" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/source/test.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
