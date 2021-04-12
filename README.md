@@ -6,7 +6,7 @@
 ## Documentation 
 You can find a documentation more in depth of the package in :
 ```
---docs\build\html\index
+https://youssefbar.github.io/fuzzy/
 ```
 ## Features
 
