@@ -6,7 +6,7 @@
 ## Documentation 
 You can find a documentation more in depth of the package in :
 ```
-https://joseffaghihi.github.io/Causal-probabilistic-fuzzy-logic/
+[https://joseffaghihi.github.io/Causal-probabilistic-fuzzy-logic/](https://joseffaghihi.github.io/Causal-probabilistic-fuzzy-logic/)
 ```
 ## Features
 
