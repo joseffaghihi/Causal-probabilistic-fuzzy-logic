@@ -31,5 +31,5 @@ pip install matplotlib
 pip install -U scikit-fuzzy
 ```
 ## References
-Faghihi, Usef, Serge Robert, Pierre Poirier, and Youssef Barkaoui. "From Association to Reasoning, an Alternative to Pearls’ Causal Reasoning." In The Thirty-Third International Flairs Conference. 2020.
+[Faghihi, Usef, Serge Robert, Pierre Poirier, and Youssef Barkaoui. "From Association to Reasoning, an Alternative to Pearls’ Causal Reasoning."](https://github.com/joseffaghihi/Causal-probabilistic-fuzzy-logic/blob/main/version-official-oublie.pdf) In The Thirty-Third International Flairs Conference. 2020.
 
