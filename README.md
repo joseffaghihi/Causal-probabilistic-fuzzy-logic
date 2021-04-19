@@ -30,5 +30,6 @@ pip install pandas
 pip install matplotlib
 pip install -U scikit-fuzzy
 ```
-
+## References
+Faghihi, Usef, Serge Robert, Pierre Poirier, and Youssef Barkaoui. "From Association to Reasoning, an Alternative to Pearls’ Causal Reasoning." In The Thirty-Third International Flairs Conference. 2020.
 
