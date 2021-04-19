@@ -1,4 +1,5 @@
-# Fuzzy Package
+# Causal Probabilistic Fuzzy logic Model 
+Authors: Usef Faghihi and Youssef Barkaoui
 
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://https://dillinger.io/)
